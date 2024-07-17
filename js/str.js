@@ -1,0 +1,14 @@
+str=" what is your name ";
+console.log(str.length);
+console.log(str.toUpperCase() .toLowerCase());
+console.log(str.trim());
+console.log(str.trimLeft());
+console.log(str.trimRight());
+console.log(str.substring(2,5));
+console.log(str.replace('what','how'));
+console.log(str.startsWith(" what is your name"));
+console.log(str.endsWith("name "));
+ar=str.split(" ");
+console.log(ar);
+str=ar.join(" ");
+console.log(str);
