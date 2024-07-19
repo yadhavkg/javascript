@@ -22,8 +22,10 @@ while(true)
     else if(choice==3)
         {
             c=prompt("ENTER THE INDEX TO BE EDITED");
-            d=prompt("");
-            a[c-1]=d;
+            d=prompt("ENTER NEW NAME");
+            k=prompt("ENTER NEW NUMBER")
+            n={name:d,number:k};
+            a[c-1]=n;
 
         }
     else if(choice==4)
